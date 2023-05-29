@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B3DFA7BD-B481-435E-8069-96A2EC69BC46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Ordering.WebApi", "src\PhoneShop.Ordering.WebApi\PhoneShop.Ordering.WebApi.csproj", "{14F726BC-6DFB-45A7-9C76-976FFC0D29EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Ordering.Domain", "src\PhoneShop.Ordering.Domain\PhoneShop.Ordering.Domain.csproj", "{CAB0911A-7F33-423C-9E90-B0F90465E49D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Ordering.Application", "src\PhoneShop.Ordering.Application\PhoneShop.Ordering.Application.csproj", "{ADB8541B-060F-4623-A308-0CF06840F9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Ordering.Infrastructure", "src\PhoneShop.Ordering.Infrastructure\PhoneShop.Ordering.Infrastructure.csproj", "{6C45A990-FCF2-4881-83B0-041E5DCF5150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14F726BC-6DFB-45A7-9C76-976FFC0D29EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F726BC-6DFB-45A7-9C76-976FFC0D29EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F726BC-6DFB-45A7-9C76-976FFC0D29EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F726BC-6DFB-45A7-9C76-976FFC0D29EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB0911A-7F33-423C-9E90-B0F90465E49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB0911A-7F33-423C-9E90-B0F90465E49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB0911A-7F33-423C-9E90-B0F90465E49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB0911A-7F33-423C-9E90-B0F90465E49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB8541B-060F-4623-A308-0CF06840F9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB8541B-060F-4623-A308-0CF06840F9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB8541B-060F-4623-A308-0CF06840F9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB8541B-060F-4623-A308-0CF06840F9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C45A990-FCF2-4881-83B0-041E5DCF5150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C45A990-FCF2-4881-83B0-041E5DCF5150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C45A990-FCF2-4881-83B0-041E5DCF5150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C45A990-FCF2-4881-83B0-041E5DCF5150}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14F726BC-6DFB-45A7-9C76-976FFC0D29EF} = {B3DFA7BD-B481-435E-8069-96A2EC69BC46}
+		{CAB0911A-7F33-423C-9E90-B0F90465E49D} = {B3DFA7BD-B481-435E-8069-96A2EC69BC46}
+		{ADB8541B-060F-4623-A308-0CF06840F9E9} = {B3DFA7BD-B481-435E-8069-96A2EC69BC46}
+		{6C45A990-FCF2-4881-83B0-041E5DCF5150} = {B3DFA7BD-B481-435E-8069-96A2EC69BC46}
+	EndGlobalSection
+EndGlobal
