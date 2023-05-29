@@ -11,7 +11,13 @@ jobs:
     -
       name: chekcout
       uses: actions/checkout@v2
-    - 
+    -
+      name: Nuget config Credentials
+      run: |              
+        mv nuget.ci.config nuget.config  
+        echo $(sed -e "s/\${USER}/${{ github.actor }}/" -e "s@\${PAT}@${{ secrets.PACKAGE_TOKEN }}@" nuget.config) >nuget.config 
+        cp nuget.config src/PhoneShop.Ordering.WebApi/nuget.config    
+    -
        name: Login Docker Hub
        uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
        with:
